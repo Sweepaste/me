@@ -3,11 +3,12 @@ import React from "react";
 import {
     AiFillCode,
     AiFillHome,
-    AiOutlineGithub
+    AiOutlineGithub,
+    AiTwotoneContacts
 } from "react-icons/ai";
 
 import {BsMedium} from "react-icons/bs";
-
+import { MdWork } from 'react-icons/md'
 
 const menuConfig = {
 
@@ -21,25 +22,25 @@ const menuConfig = {
         },
         {
             id: "menu-1",
-            title: "Projects",
+            title: "Works",
             path: "/projects",
-            icon: <AiOutlineGithub size={35}/>,
+            icon: <MdWork size={35}/>,
             className: "nav-text"
         },
         {
             id: "menu-2",
-            title: "Blogs",
-            path: "/blogs",
-            icon: <BsMedium size={35}/>,
-            className: "nav-text"
-        },
-        {
-            id: "menu-3",
             title: "Skills",
             path: "/skills",
             icon: <AiFillCode size={35}/>,
             className: "nav-text"
-        }
+        },
+        // {
+        //     id: "menu-3",
+        //     title: "Contact me",
+        //     path: "/blogs",
+        //     icon: <AiTwotoneContacts size={35}/>,
+        //     className: "nav-text"
+        // }
     ]
 
 }

@@ -1,5 +1,5 @@
-import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
+import {MdEmail} from "react-icons/md";
+import {FaLinkedinIn, FaPhone} from "react-icons/fa";
 import {BsMedium} from "react-icons/bs";
 import React from "react";
 
@@ -7,17 +7,17 @@ const footerConfig = {
     icons: [
         {
             id: "footer-0",
-            url: "https://github.com/rodrigo-arenas",
+            url: "mailto:ShawnZh333@gmail.com",
             className: "social-icon",
             target: "_blank",
-            icon: <AiFillGithub size={50}/>
+            icon: <MdEmail size={50}/>
         },
         {
             id: "footer-1",
-            url: "https://linkedin.com/in/rodrigo-arenas-gomez",
+            url: "tel:4123702590",
             className: "social-icon",
             target: "_blank",
-            icon: <FaLinkedinIn size={50}/>
+            icon: <FaPhone size={50}/>
         },
         {
             id: "footer-2",

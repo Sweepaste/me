@@ -25,11 +25,11 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="resume-content" id="resume">
+            {/* <Container fluid className="resume-content" id="resume">
                 <div className="col-md-8 mx-auto">
                     <Timeline items={homeConfig.workTimeline}/>
                 </div>
-            </Container>
+            </Container> */}
         </section>)
 
 }

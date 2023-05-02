@@ -5,12 +5,14 @@ import React from 'react'
 
 const Blogs = () => {
     return (
-        <div className="wrapper">
-            {blogConfig.map((item) => (
-                    <CardItem item={item}/>
-                )
-            )}
-        </div>)
+        // <div className="wrapper">
+        //     {blogConfig.map((item) => (
+        //             <CardItem item={item}/>
+        //         )
+        //     )}
+        // </div>
+        <div></div>
+    )
 }
 
 export default Blogs
