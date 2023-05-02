@@ -12,9 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React from 'react'
 
-if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
-    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID)
-}
+
 
 
 function App() {
@@ -24,9 +22,8 @@ function App() {
                 <NavBar/>
                 <ScrollToTop/>
                 <Routes>
-                    <Route path={"/portfolio"} exact element={<Home/>}/>
+                    <Route path={"/Home"} exact element={<Home/>}/>
                     <Route path={"/projects"} exact element={<Projects/>}/>
-                    <Route path={"/blogs"} exact element={<Blogs/>}/>
                     <Route path={"/skills"} exact element={<Skills/>}/>
                 </Routes>
                 <Footer/>
