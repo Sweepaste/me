@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://sweepaste.github.io/aboutme",
+  "homepage": "https://sweepaste.github.io/me",
   "private": true,
   "dependencies": {
     "@iconify/iconify": "^2.1.0",
@@ -46,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

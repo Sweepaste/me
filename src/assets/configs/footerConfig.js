@@ -18,13 +18,6 @@ const footerConfig = {
             className: "social-icon",
             target: "_blank",
             icon: <FaPhone size={50}/>
-        },
-        {
-            id: "footer-2",
-            url: "https://rodrigo-arenas.medium.com",
-            className: "social-icon",
-            target: "_blank",
-            icon: <BsMedium size={50}/>
         }
     ]
 }
