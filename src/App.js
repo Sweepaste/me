@@ -22,7 +22,8 @@ function App() {
                 <ScrollToTop/>
                 <Routes>
                     <Route path={"/"} exact element={<Home />} />
-                    <Route path={"/home"} exact element={<Home/>}/>
+                    <Route path={"/home"} exact element={<Home />} />
+                    <Route path={"/me"} exact element={<Home/>}/>
                     <Route path={"/projects"} exact element={<Projects/>}/>
                     <Route path={"/skills"} exact element={<Skills/>}/>
                 </Routes>
